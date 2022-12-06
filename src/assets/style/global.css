@@ -3,12 +3,15 @@
 :root {
     --main-darkMode-background-color: #45535B;
     --main-background-color: white;
-    --main-text-color: green;
+    --main-text-color: gray;
     --main-darkMode-text-color: coral;
     --main-primary-color: purple light;
     --main-button-text-color: black;
     --main-button-background-color: snow;
     --main-button-hover-background-color: orange;
+    --main-navbar-background-color: coral;
+
+
 }
 
 * {

@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 import { PageContainer } from '../components/common/PageContainer'
-import { Button } from '../components/common/Button';
+import { Button, LinkButton } from '../components/common/Button';
 import { H1 } from '../components/common/Typography';
 import { Link } from 'react-router-dom';
 const IndexPage = () => {
@@ -16,7 +16,7 @@ const IndexPage = () => {
     <H1>
         Welcome to my Rick and Morty API
     </H1>
-    <Link to="/all"> All Characters </Link>
+    <LinkButton to="/all"> All Characters </LinkButton>
   </PageContainer>
     );
   }

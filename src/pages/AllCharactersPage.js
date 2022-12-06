@@ -1,5 +1,8 @@
 import React, { useEffect, useState} from 'react'
 import { getAllCharacters } from '../services/apiService'
+import CharacterCard from "../components/cards/CharacterCard/CharacterCard"
+
+
 const AllCharactersPage = () => {
   const [characters, setCharacters] = useState([]);
 
@@ -14,7 +17,7 @@ const AllCharactersPage = () => {
   return (
       <div>
         {characters.map((character) => (
-          <div>{character.name}</div>
+          <CharacterCard character={character} key={character.id} />
         ))}
       </div>
     
