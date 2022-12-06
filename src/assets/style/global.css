@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+:root {
+    --main-darkMode-background-color: #45535B;
+    --main-background-color: white;
+    --main-text-color: green;
+    --main-darkMode-text-color: coral;
+    --main-primary-color: purple light;
+    --main-button-text-color: black;
+    --main-button-background-color: snow;
+    --main-button-hover-background-color: orange;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+      font-family: 'Zen Dots', cursive;;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--main-button-text-color);
+    }
